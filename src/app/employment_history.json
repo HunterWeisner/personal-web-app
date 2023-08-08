@@ -1,0 +1,40 @@
+
+    [
+        {
+            "job_title" : "Assocaite Web Developer",
+            "date": "January 2023 - July 2023",
+            "employere" : "High Point University",
+            "location" : "On Site and Remote",
+            "responsibilities" : "Assisting with new web page design for marketing. Essential admin work such as updating current employee profiles and removing terminated employee profiles. Consultation for mobile first designs. Creating JS and CSS solutions to meet deisgn specifications."
+        },
+        {
+            "job_title" : "Android App Developer",
+            "date": "June 2022 - July 2022",
+            "employere" : "ECPI University",
+            "location" : "Remote",
+            "responsibilities" : "Developing an original Mobile application for android in an internship setting under a professor."
+        },
+        {
+            "job_title" : "Customer Service Representative",            
+            "date": "January 2021 – October 2021",
+            "employere" : "OneSupport",
+            "location" : "Remote",
+            "responsibilities" : "Handeling inbound calls from customers reguarding issues with their accounts. Handeling sensitive information such as SSN, addresses, DL numbers etc. Assisting customers in navigating online account issues and diverting them to the correct channels for more complex issues."
+        },
+        {
+            "job_title" : "Stocker",
+            "date": "July 2020 – September 2020",
+            "employere" : "Walmart",
+            "location" : "On Site, Randleman NC",
+            "responsibilities" : "Maintaining store inventory and manageing product displays. Working closely with a team to ensure inventory availability for customers."
+        
+        },
+        {
+            "job_title" : "Research Assistant" ,
+            "date": "May 2019 – July 2019",
+            "employere" : "NC A & T State University",
+            "location" : "One Site, Greensboro NC",
+            "responsibilities" : "Assiting a doctoral student with research and labwork pertaining to their doctoral research."
+        
+        }
+    ]
