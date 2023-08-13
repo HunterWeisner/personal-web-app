@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from "next/image"
+import headShot from "public/images/hunter-weisner-headshot-cold.png"
 export default function Header() {
   return (
     <div className="content-center flex">
@@ -10,7 +11,10 @@ export default function Header() {
             </h1>
         </div>
         <div className="w-1/3 inline-block center m-3">
-            <img className='rounded-md' src="/hunter-weisner-headshot-cold.png" alt="" />
+            <Image
+              src = {headShot}
+              alt = "Picture of Webpage Creator"
+            />
         </div>
     </div>
   )
