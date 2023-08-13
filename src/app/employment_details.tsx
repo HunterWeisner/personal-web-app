@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 export default function Employment_details(job_title: string, date: string, employere: string, location: string, responsibilites: string){
     return(
