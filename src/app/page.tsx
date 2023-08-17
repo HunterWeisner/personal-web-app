@@ -1,3 +1,4 @@
+'use client';
 import Header from './header'
 import AboutSection from './about'
 import More_information from './more_information'
