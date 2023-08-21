@@ -8,8 +8,7 @@ export default function AboutSection() {
     <About
       section_title="About Me"
       section_text="Hi there! I'm Hunter Weisner, an up-and-coming Developer thats passionate about building sustainable, acessible, and 
-        readable software. Recently my focus has been on web development, but other development and engineering oppertunities are always welcome. As a Developer
-        my skills are focused around understanding effective project management and writting maintainable code which are both great tools to have in any project. "
+        readable software."
       first_icon={git_hub_mark}
       first_url="https://github.com/HunterWeisner" 
       first_alt="Github Mark Icon"
