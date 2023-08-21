@@ -1,7 +1,9 @@
 [
     {
+        "key" : "compsci",
         "degree_title" : "Bachelor of Science in Computer and Information Science",
         "Major": "Software Development",
-        "University": "ECPI University"
+        "University": "ECPI University",
+        "date": "January 2021 - November 2022"
     }
 ]
