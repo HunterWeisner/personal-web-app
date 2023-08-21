@@ -4,5 +4,46 @@
 
 
 body {
-  background: rgb(31 41 55);
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+.button-icon.expanded{
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(180deg);
+  transition: transform .25s linear;
+}
+.button-icon{
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(90deg);
+  transition: transform .25s linear;
+}
+
+.overflow-visable{
+  overflow: visible;
+}
+
+.headshot{
+  max-width: 60%;
+}
+.link-icon{
+ max-width: 3rem;
+}
+.diagonal-section{
+  position: relative;
+  isolation: isolate;
+}
+.diagonal-section::after{
+  background-image: 
+    linear-gradient(
+      60deg,
+      #2dd4bf,
+      #08e8de
+    );
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: skewY(5deg);
+  z-index: -1;
 }
