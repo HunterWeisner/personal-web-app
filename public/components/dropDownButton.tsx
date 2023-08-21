@@ -1,8 +1,11 @@
 import React from "react";
 
 interface Props{
+    class_name?: string;
+    text_decoration: string;
+    text_color: string;
     border: string;
-    color: string;
+    background_color: string;
     children?: React.ReactNode;
     height: string;
     onClick: () => void;
@@ -11,8 +14,11 @@ interface Props{
 }
 
 const DropDownButton: React.FC<Props> = ({
+    class_name,
+    text_decoration,
+    text_color,
     border,
-    color,
+    background_color,
     children,
     height,
     onClick,
@@ -20,18 +26,21 @@ const DropDownButton: React.FC<Props> = ({
     width
 }) =>{
     return(
-        <button 
+        <button
+        className={class_name}
         onClick={onClick}
         style={{
-           backgroundColor: color,
-           border,
-           borderRadius: radius,
-           height,
-           width
+            textDecoration: text_decoration,   
+            color: text_color,
+            backgroundColor: background_color,
+            border,
+            borderRadius: radius,
+            height,
+            width
         }}
-      >
-      {children}
-      </button>
+        >
+        {children}
+        </button>
     );
 }
 
