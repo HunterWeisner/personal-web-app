@@ -1,6 +1,5 @@
 import React from "react";
 import DropDownButton from "./dropDownButton";
-import buttonFunctions from "../scripts/moreDetailsButtonScript";
 import {Job_interface} from "../interfaces/job_interface";
 import Job from "./job";
 import employment_history  from '../data/employment_history.json' assert {type: "json"};
