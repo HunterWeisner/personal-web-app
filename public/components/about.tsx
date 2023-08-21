@@ -23,26 +23,31 @@ const About: React.FC<Props> = ({
     second_alt
 }) =>{
     return(
-        <div className="">
-            <div className="content-center m-4">
-                <h2 className='text-white text-2xl'>{section_title}</h2>
-                <p className='text-white mt-2'>{section_text}</p>
+        <section className="diagonal-section pt-1 pb-1 max-w-5xl m-auto">
+            <div className="bg-transparent m-6">
+                <div className="content-center">
+                    <h2 className=' text-black text-3xl font-bold lg:text-6xl
+                        md:text-4xl'>{section_title}</h2>
+                    <p className=' text-black mt-2 lg:text-3xl md:text-2xl '>{section_text}</p>
+                </div>
+                <div className="links-container flex gap-3 w-fit mt-2 ml-auto mr-5">
+                    <a href={first_url} className="w-fit">
+                        <Image
+                            src={first_icon}
+                            alt={first_alt}
+                            className="link-icon m-0"
+                        />
+                    </a>
+                    <a href={second_url} className="w-fit">
+                        <Image
+                            src={second_icon}
+                            alt={second_alt}
+                            className="link-icon rounded-md"
+                        />
+                    </a>
+                </div>
             </div>
-            <div className="links-container flex gap-1 right-0">
-                <a href={first_url}>
-                <Image
-                    src={first_icon}
-                    alt={first_alt}
-                />
-                </a>
-                <a href={second_url}>
-                <Image
-                    src={second_icon}
-                    alt={second_alt}
-                />
-                </a>
-            </div>
-        </div>
+        </section>
     )
 }
 
