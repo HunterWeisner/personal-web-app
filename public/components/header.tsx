@@ -1,5 +1,6 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
+import Contact_info from "./contact_info";
 
 interface Props{
     image: StaticImageData;
@@ -17,7 +18,7 @@ const Header: React.FC<Props> = ({
     bottomText
 })=>{
     return(
-        <div className="m-auto mb-12 max-w-5xl">
+        <div className="m-auto mb-44 max-w-5xl">
             <div className="float-none">
                 <Image
                 src = {image}
@@ -36,7 +37,11 @@ const Header: React.FC<Props> = ({
                     <div className="text-white text-3xl mt-2 lg:text-7xl md:text-5xl lg:mt-9 md:mt-5"><p>{bottomText}</p></div>
                 </h1>
             </div>
-            
+            <Contact_info
+                email="mailto: hunterweisner@gmail.com"
+                resume_url="../resources/Resume-08-25-23.pdf"
+                phone="+1 (336) 521-1925"
+            />
      </div>
     );
 }
